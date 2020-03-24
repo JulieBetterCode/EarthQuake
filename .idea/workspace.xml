@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7fc3e68-c0b7-4558-93e9-535b19282326" name="Default Changelist" comment="" />
+    <list default="true" id="c7fc3e68-c0b7-4558-93e9-535b19282326" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/quake/comparator/TitleAndDepthComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/quake/comparator/TitleLastAndMagnitudeComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EarthQuake/data/earthQuakeDataDec6sample2 (1).atom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EarthQuake/quake/EarthQuakeParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EarthQuake/quake/EarthQuakeParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EarthQuake/quake/QuakeEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EarthQuake/quake/QuakeEntry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EarthQuake/quake/QuakeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EarthQuake/quake/QuakeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/quake/EarthQuakeParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/quake/EarthQuakeParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/quake/QuakeEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/quake/QuakeEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/quake/QuakeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/quake/QuakeSort.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +28,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1ZX7GGWozylyCQS3WTyNViESWnb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,13 +44,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/data" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lingxia\IdeaProjects\EarthQuake\src\quake" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="quake.comparator" />
       <recent name="quake" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -92,38 +108,42 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="226" width="404" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1584977987213" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1585056429640">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1585060950458">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585056429640" />
-    <state width="1237" height="193" key="GridCell.Tab.0.bottom" timestamp="1585055667441">
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585060950458" />
+    <state width="1237" height="193" key="GridCell.Tab.0.bottom" timestamp="1585071904960">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="193" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585055667441" />
-    <state width="1237" height="193" key="GridCell.Tab.0.center" timestamp="1585055667441">
+    <state width="1237" height="193" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585071904960" />
+    <state width="1237" height="193" key="GridCell.Tab.0.center" timestamp="1585071904960">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="193" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585055667441" />
-    <state width="1237" height="193" key="GridCell.Tab.0.left" timestamp="1585055667440">
+    <state width="1237" height="193" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585071904960" />
+    <state width="1237" height="193" key="GridCell.Tab.0.left" timestamp="1585071904960">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="193" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585055667440" />
-    <state width="1237" height="193" key="GridCell.Tab.0.right" timestamp="1585055667441">
+    <state width="1237" height="193" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585071904960" />
+    <state width="1237" height="193" key="GridCell.Tab.0.right" timestamp="1585071904960">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="193" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585055667441" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1585056760946">
+    <state width="1237" height="193" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585071904960" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1585061025034">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1585056760946" />
-    <state x="341" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1584976690516">
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1585061025034" />
+    <state x="341" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1585071261215">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="341" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1584976690516" />
-    <state x="0" y="0" width="609" height="680" key="find.popup" timestamp="1585044107145">
+    <state x="341" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585071261215" />
+    <state x="450" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585060675034">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" width="609" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1585044107145" />
+    <state x="450" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1585060675034" />
+    <state x="0" y="0" width="609" height="680" key="find.popup" timestamp="1585071741036">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" width="609" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1585071741036" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1584991653118">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -101,12 +101,13 @@ public class EarthQuakeParser {
 
     public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException{
         EarthQuakeParser xp = new EarthQuakeParser();
-        QuakeSort cl = new QuakeSort();
+        DifferentSorters cl = new DifferentSorters();
+        QuakeSort qs = new QuakeSort();
 
-        //String source = "C:\\Users\\lingxia\\IdeaProjects\\EarthQuake\\src\\data\\nov20quakedata.atom";
-        //ArrayList<QuakeEntry> list  = xp.read(source);
+        String source = "C:\\Users\\lingxia\\IdeaProjects\\EarthQuake\\src\\data\\earthQuakeDataDec6sample2.atom";
+        ArrayList<QuakeEntry> list  = xp.read(source);
 
-        cl.testSort();
+        cl.sortByLastWordInTitleThenByMagnitude();
 
     }
 

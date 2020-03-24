@@ -67,10 +67,10 @@ public class QuakeSort {
     /* tester method to use in BlueJ */
     public void testSort(){
         EarthQuakeParser parser = new EarthQuakeParser();
-        //String source = "data/nov20quakedata.atom";
-        String source = "C:\\Users\\lingxia\\IdeaProjects\\EarthQuake\\src\\data\\earthQuakeDataDec6sample2.atom";
+        String source = "C:\\Users\\lingxia\\IdeaProjects\\EarthQuake\\src\\data\\earthQuakeDataWeekDec6sample2.atom";
         ArrayList<QuakeEntry> list  = parser.read(source);
         sortByMagnitudeWithBubbleSortWithCheck(list);
+        System.out.println(list.size());
         //for(QuakeEntry qe: list) {
         //    System.out.println(qe);
         //}
